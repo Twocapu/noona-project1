@@ -1,0 +1,46 @@
+html, body {
+    /* 기본 설정된 값을 아래 값으로 변경 */
+    /* html과 body를 같이 준 이유는 혹시나 생길 css기본 설정값의 충돌을 방지하는 행위라고 함 */
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    overflow: hidden;/* 스크롤 방지 */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 네브바 */
+.navbar {
+
+}
+.nav-left {
+
+}
+.nav-right {
+    float: right;
+}
+.profile {
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+/* 메인 */
+.main {
+    text-align: center;
+}
+/* 풋터 */
+.footer {
+    
+}
+.footer1 {
+    
+}
+.footer2 {
+    
+}
+.footer2-left {
+
+}
+.footer2-right {
+    float: right;
+}
