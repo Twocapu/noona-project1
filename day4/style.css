@@ -1,0 +1,172 @@
+html, body {
+    /* 기본 설정된 값을 아래 값으로 변경 */
+    /* html과 body를 같이 준 이유는 혹시나 생길 css기본 설정값의 충돌을 방지하는 행위라고 함 */
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    overflow: hidden;/* 스크롤 방지 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 네브바 */
+.navbar {
+    padding: 6px;
+    height: 60px;
+    display: flex; /* nav 플렉스 */
+    justify-content: space-between;
+    align-items: center
+}
+.navbar a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 14px;
+    font-family: Arial, Apple SD Gothic Neo, sans-serif;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.nav-item {
+    display: inline-flex !important; /* 아이콘에 걸려있는 디스플레이값을 무시하기 위해 인라인 플렉스 적용 강제 덮어쓰기 */
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* 동그라미 너비 */
+    height: 40px; /* 동그라미 높이 */
+    font-size: 20px; /* 아이콘 크기 */
+    vertical-align: middle; /* 세로 기준 정렬 */
+}
+.nav-item:hover {
+    cursor: pointer;
+    background-color: #e0e0e0; /* 배경 색상 */
+    border-radius: 50%; /* 동그라미 형태 */
+}
+.nav-left {
+    margin-left: 15px;
+}
+.nav-left a {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 5px;
+}
+.nav-right {
+
+}
+.nav-right a {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 5px;
+}
+.profile {
+    border-radius: 50%;
+    padding: 5px; /*호버했을 때 백그라운드가 안보여서*/
+}
+
+/* 메인 */
+.main {
+    text-align: center;
+    height: calc(100% - 560px);
+}
+.input-area {
+    margin-top: 20px;
+}
+.input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    padding-left: 40px;
+    padding-right: 120px;
+}
+.search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+.right-icon:hover {
+    cursor: pointer;
+}
+.icon1 {                /*키보드*/
+    position: relative;
+    right: 120px;
+    color: #9aa0a6;
+}
+.icon2 {                /*마이크*/
+    position: relative;
+    right: 100px;
+}
+.icon3 {                /*카메라*/
+    position: relative;
+    right: 80px;
+}
+.rainbow {        /* 무지개색 하는 법 */
+    color: transparent; /* 텍스트 색은 투명하게 */
+    -webkit-background-clip: text; /* 텍스트를 배경으로 만들기 */
+    background-image: conic-gradient(blue, red, yellow, green); /*radial-gradient, linear-gradient 등 여러 종류*/
+}
+.button-area {
+    padding-top: 18px;
+}
+.button-style {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Apple SD Gothic Neo, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.button-style:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.offer-area {
+    padding-top: 18px;
+}
+.offer-area a{
+    text-decoration: none;
+    padding: 0 5px;
+}
+.offer-area a:hover {
+    text-decoration: underline;
+}
+/* 풋터 */
+.footer {
+    background: #f2f2f2;
+}
+.footer1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.footer2 a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.footer2 a:hover {
+    text-decoration: underline;
+}
+.footer2-left {
+
+}
+.footer2-right {
+    float: right;
+}
