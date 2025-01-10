@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+a {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
