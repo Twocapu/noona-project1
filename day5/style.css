@@ -1,0 +1,81 @@
+.box-black {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.quest {
+    border: 1px solid red;
+    height: 800px;
+}
+.quest1 {
+    display: flex;
+    justify-content: space-between;
+}
+.q1-flex {
+    display: flex;
+}
+.quest2 {
+    display: flex;
+    justify-content: space-between;
+}
+.q2-box2 {
+    align-self: center;
+}
+.q2-box3 {
+    align-self: flex-end;
+}
+.quest3 {
+    position: relative;
+}
+.q3-box-gray {
+    width: 400px;
+    height: 400px;
+    background-color: darkslategray;
+    color: white;
+    position: absolute;
+    left: calc(50% - 200px);/* 수식 사이 공백을 줘야함 안그러면 에러남 */
+    z-index: 1;             /*레이아웃 순서*/
+    margin-top: 50px;
+}
+.q3-box-black {
+    position: absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    z-index: 2;
+}
+.quest4 {
+    position: relative;
+}
+.q4-box-black{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.q4-box-gray{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: darkslategray;
+}
+.quest5 {
+    position: relative;
+}
+.q5-box-gray{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 300px;
+    background-color: darkslategray;
+}
+.q5-box-2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.q5-box-3{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
