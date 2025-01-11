@@ -1,0 +1,150 @@
+* { cursor: default; } /* 전역에 설정 하는 방법*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover {
+    color: #1ed760 !important;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/****************************************** nav ******************************************/
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item {
+    font-weight: 700;
+    padding: 28px 17px;
+}
+/****************************************** main ******************************************/
+main {
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+
+    color: #1ed760;
+}
+.main-text {
+    font-size: 146px;
+    line-height: 166px;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+.main-text-first {
+    position: relative;
+    left: -2.5em; /* 폰트 사이즈 기준으로 픽셀이 바뀌어서 사이즈가 작아지면 거기에 맞게 다시 계산함 반응형웹을 할 떄 유용*/
+}
+.main-text-s {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+.main-button {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+.main-button:hover {
+    transform: scale(1.07);
+    background-color: #2de26d;
+    cursor: pointer;
+}
+/****************************************** footer ******************************************/
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.footer-container {
+    width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer-nav { /*6 4 비율*/
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+.footer-nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.footer-nav-left .nav-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer-nav-left .menu-title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.footer-nav-left .menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.footer-nav-right {
+    display: flex;
+}
+.footer-nav-right .icon-box {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav-right .icon-box:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+.footer-nav-right i {
+    font-size: 24px;
+}
+.footer-info-first {
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.footer-info-second {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.footer-info-second .info-item {
+    margin-right: 24px;
+    color: #919496;
+}
