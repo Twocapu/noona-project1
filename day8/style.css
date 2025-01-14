@@ -20,5 +20,9 @@ body {
 
 
 footer {
-
+  background-color: #d4f4fa;
+}
+footer a{
+  color: black;
+  text-decoration: none;
 }
