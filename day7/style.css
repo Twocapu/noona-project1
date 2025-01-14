@@ -1,8 +1,11 @@
+body {
+  padding-top: 56px; /* 기본 부트스트랩 네브바 높이 */
+}
 .card {
-    width: 17.5rem; 
-    height: 420px;
+  width: 17.5rem;
+  height: 420px;
 }
 .card img {
-    width: auto;
-    height: 230px;
+  width: auto;
+  height: 230px;
 }

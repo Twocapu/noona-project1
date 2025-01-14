@@ -1,0 +1,24 @@
+body {
+  padding-top: 56px; /* 기본 부트스트랩 네브바 높이 */
+}
+.card {
+  width: 15rem;
+  margin: 0 auto;
+  border-radius: 0px;
+}
+.card:hover {
+  border-color: black !important;
+}
+.card img {
+  width: 200px; height: 200px;
+  margin: 0 auto;
+}
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+footer {
+
+}
