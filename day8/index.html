@@ -244,8 +244,8 @@
         <div>
           <div class="pt-5 pb-5 first-line">KKAJAJOA</div>
           <div class="pt-5 pb-5 second-line">
-            <div class="row gap-2 justify-content-center align-items-center">
-              <div class="col first-col">
+            <div class="row gap-2 justify-content-between align-items-center footer-row">
+              <div class="col">
                 <img
                   src="https://e7.pngegg.com/pngimages/794/125/png-clipart-flag-of-south-korea-national-flag-flag-of-north-korea-flag-miscellaneous-flag.png"
                   alt="Korea Flag"
@@ -261,6 +261,45 @@
               <div class="col">Tel: 02 - 1234 - 5678</div>
               <div class="col">E-mail: abc@defg.co.kr</div>
             </div>
+
+            <!-- accordion start -->
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfo" aria-expanded="true" aria-controls="collapseInfo">
+                    Info
+                  </button>
+                </h2>
+                <div id="collapseInfo" class="accordion-collapse collapse" aria-labelledby="headingInfo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Inquiry & Report</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContact" aria-expanded="false" aria-controls="collapseContact">
+                    Contact Us
+                  </button>
+                </h2>
+                <div id="collapseContact" class="accordion-collapse collapse" aria-labelledby="headingContact" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Tel: 02 - 1234 - 5678</li>
+                      <li>E-mail: abc@defg.co.kr</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- accordion end -->
+            
+
           </div>
           <div class="third-line pt-5 pb-5 text-center">
             Ship to: Republic of Korea
